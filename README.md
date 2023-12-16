@@ -16,7 +16,7 @@ You can get them for the different days on the website.
 | 05  | [If You Give A Seed A Fertilizer](src/AoC.2023/Day5.cs) |      |        |
 | 06  | [Wait For It](src/AoC.2023/Day6.cs)                     |   🌟   |   🌟   |
 | 07  | [Camel Cards](src/AoC.2023/Day7.cs)                     |   🌟   |   🌟   |
-| 08  | [Haunted Wasteland](src/AoC.2023/Day8.cs)               |   🌟   |      |
+| 08  | [Haunted Wasteland](src/AoC.2023/Day8.cs)               |   🌟   |   🌟   |
 
 # Advent Of Code 2022
 
