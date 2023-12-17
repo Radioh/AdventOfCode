@@ -17,6 +17,9 @@ You can get them for the different days on the website.
 | 06  | [Wait For It](src/AoC.2023/Day6.cs)                     |   🌟   |   🌟   |
 | 07  | [Camel Cards](src/AoC.2023/Day7.cs)                     |   🌟   |   🌟   |
 | 08  | [Haunted Wasteland](src/AoC.2023/Day8.cs)               |   🌟   |   🌟   |
+| 09  | [Mirage Maintenance](src/AoC.2023/Day9.cs)              |   🌟   |        |
+
+
 
 # Advent Of Code 2022
 
