@@ -6,6 +6,27 @@ public sealed class Day9 : PuzzleCore, IPuzzle
 {
     public string SolvePart1()
     {
+        return GetCombinedValues(GetEndHistory).ToString();
+
+        int GetEndHistory(List<List<int>> diffs)
+        {
+            return diffs.Select(x => x.Last()).Sum();
+        }
+    }
+
+    public string SolvePart2()
+    {
+        return GetCombinedValues(GetStartHistory).ToString();
+
+        int GetStartHistory(List<List<int>> diffs)
+        {
+            diffs.Reverse();
+            return diffs.Select(x => x.First()).Aggregate(0, (i, i1) => i1 - i);
+        }
+    }
+
+    private static int GetCombinedValues(Func<List<List<int>>, int> getCombinedFunc)
+    {
         var lines = GetLineInput(nameof(Day9));
         var combinedValues = 0;
 
@@ -21,7 +42,7 @@ public sealed class Day9 : PuzzleCore, IPuzzle
             {
                 if (diffs.Last().All(x => x == 0))
                 {
-                    combinedValues += diffs.Select(x => x.Last()).Sum();
+                    combinedValues += getCombinedFunc(diffs);
                     break;
                 }
 
@@ -42,6 +63,6 @@ public sealed class Day9 : PuzzleCore, IPuzzle
             }
         }
 
-        return combinedValues.ToString();
+        return combinedValues;
     }
 }
