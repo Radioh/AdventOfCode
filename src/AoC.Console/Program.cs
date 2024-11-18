@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using AoC.Core;
 
-var latestPuzzle = GetLatestPuzzle("2023");
+var latestPuzzle = GetLatestPuzzle("2024");
 Console.WriteLine($"Part 1:\n{latestPuzzle.SolvePart1()}");
 Console.WriteLine();
 Console.WriteLine($"Part 2:\n{latestPuzzle.SolvePart2()}");
