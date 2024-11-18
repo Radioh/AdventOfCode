@@ -358,6 +358,8 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Mac OS
+.DS_Store
+
 # All input files
-/src/AoC.2022/Input/
-/src/AoC.2023/Input/
+/src/AoC.*/Input/

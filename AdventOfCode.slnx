@@ -3,6 +3,8 @@
     <File Path="README.md" />
     <File Path="LICENSE" />
     <File Path="AdventOfCode.slnx" />
+    <File Path="global.json" />
+    <File Path=".gitignore" />
   </Folder>
   <Project Path="src\AoC.2022\AoC.2022.csproj" Type="Classic C#" />
   <Project Path="src\AoC.2023\AoC.2023.csproj" Type="Classic C#" />
