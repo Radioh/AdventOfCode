@@ -7,9 +7,9 @@ You can get them for the different days on the website.
 
 ### Progress
 
-| Day | Title                                                   | Part 1 | Part 2 |
-|-----|---------------------------------------------------------|:------:|:------:|
-
+| Day | Title                                      | Part 1 | Part 2 |
+|-----|--------------------------------------------|:------:|:------:|
+| 01  | [Historian Hysteria](src/AoC.2024/Day1.cs) |   🌟   |   🌟   |
 
 
 
