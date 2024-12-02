@@ -1,19 +1,21 @@
-# Advent Of Code
+# Advent of Code
 Solutions for AoC in C# - [Advent Of Code](https://adventofcode.com)
 You must retrieve your own input files and put them in the Input folder. 
 You can get them for the different days on the website.  
 
-# Advent Of Code 2024
+# Advent of Code 2024
 
 ### Progress
 
 | Day | Title                                      | Part 1 | Part 2 |
 |-----|--------------------------------------------|:------:|:------:|
 | 01  | [Historian Hysteria](src/AoC.2024/Day1.cs) |   🌟   |   🌟   |
+| 02  | [Red-Nosed Reports](src/AoC.2024/Day2.cs)  |   🌟   |   🌟   |
 
 
 
-# Advent Of Code 2023
+
+# Advent of Code 2023
 
 ### Progress
 
@@ -31,7 +33,7 @@ You can get them for the different days on the website.
 
 
 
-# Advent Of Code 2022
+# Advent of Code 2022
 
 ### Progress
 
