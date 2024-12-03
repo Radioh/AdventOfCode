@@ -11,6 +11,7 @@ You can get them for the different days on the website.
 |-----|--------------------------------------------|:------:|:------:|
 | 01  | [Historian Hysteria](src/AoC.2024/Day1.cs) |   🌟   |   🌟   |
 | 02  | [Red-Nosed Reports](src/AoC.2024/Day2.cs)  |   🌟   |   🌟   |
+| 03  | [Mull It Over](src/AoC.2024/Day3.cs)       |   🌟   |   🌟   |
 
 
 
