@@ -5,7 +5,6 @@ namespace AoC._2024;
 // https://adventofcode.com/2024/day/4
 public sealed partial class Day4 : PuzzleCore, IPuzzle
 {
-    // 2536
     public string SolvePart1()
     {
         var lines = GetLineInput(nameof(Day4));
@@ -57,6 +56,8 @@ public sealed partial class Day4 : PuzzleCore, IPuzzle
         // horizontal right
         if (j + 3 < grid[i].Length)
         {
+
+
             if (grid[i][j + 1] == 'M' &&
                 grid[i][j + 2] == 'A' &&
                 grid[i][j + 3] == 'S')
@@ -153,12 +154,7 @@ public sealed partial class Day4 : PuzzleCore, IPuzzle
         if (i - 1 < 0 || i + 1 >= grid.Length || j - 1 < 0 || j + 1 >= grid[i].Length)
             return false;
 
-        return IsMAS(grid[i - 1][j + 1], 'A', grid[i + 1][j - 1]) &&
-               IsMAS(grid[i - 1][j - 1], 'A', grid[i + 1][j + 1]);
-    }
-
-    private static bool IsMAS(params char[] values)
-    {
-        return new string(values) is "MAS" or "SAM";
+        return new string(grid[i - 1][j + 1], grid[i + 1][j - 1]) is "MS" or "SM" &&
+               new string(grid[i - 1][j - 1], grid[i + 1][j + 1]) is "MS" or "SM";
     }
 }
