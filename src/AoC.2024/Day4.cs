@@ -3,7 +3,7 @@ using AoC.Core;
 namespace AoC._2024;
 
 // https://adventofcode.com/2024/day/4
-public sealed partial class Day4 : PuzzleCore, IPuzzle
+public sealed class Day4 : PuzzleCore, IPuzzle
 {
     public string SolvePart1()
     {

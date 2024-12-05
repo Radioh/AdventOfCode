@@ -13,6 +13,7 @@ You can get them for the different days on the website.
 | 02  | [Red-Nosed Reports](src/AoC.2024/Day2.cs)  |   🌟   |   🌟   |
 | 03  | [Mull It Over](src/AoC.2024/Day3.cs)       |   🌟   |   🌟   |
 | 04  | [Ceres Search](src/AoC.2024/Day4.cs)       |   🌟   |   🌟   |
+| 05  | [Print Queue](src/AoC.2024/Day5.cs)       |   🌟   |   🌟   |
 
 
 
