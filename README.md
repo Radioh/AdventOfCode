@@ -16,6 +16,7 @@ You can get them for the different days on the website.
 | 05  | [Print Queue](src/AoC.2024/Day5.cs)        |   🌟   |   🌟   |
 | 06  | [Guard Gallivant](src/AoC.2024/Day6.cs)    |   🌟   |   🌟  |
 | 07  | [Bridge Repair](src/AoC.2024/Day7.cs)      |   🌟   |   🌟  |
+| 08  | [Resonant Collinearity](src/AoC.2024/Day8.cs)      |   🌟   |   🌟  |
 
 
 
