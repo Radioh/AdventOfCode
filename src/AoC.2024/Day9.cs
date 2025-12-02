@@ -15,16 +15,6 @@ public sealed class Day9 : PuzzleCore, IPuzzle
         return GetChecksum(compacted).ToString();
     }
 
-    public string SolvePart2()
-    {
-        var line = GetLineInput(nameof(Day9)).Single();
-
-        var expanded = Expand(line);
-        var compacted = CompactBlock(expanded);
-
-        return GetChecksum(compacted).ToString();
-    }
-
     private static List<int> CompactIndividual(List<int?> input)
     {
         for (var i = 0; i < input.Count; i++)
